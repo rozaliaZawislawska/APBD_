@@ -1,6 +1,6 @@
 namespace Zadanie_2;
 
-public class Kontener
+public class Container
 {
     private int mass { get; set; }
     private int height { get; set; }
@@ -10,7 +10,7 @@ public class Kontener
     private int maxMass { get; set; }
     
 
-    public Kontener(int mass, int height, int ownWeight, int depth, int maxMass)
+    public Container(int mass, int height, int ownWeight, int depth, int maxMass)
     {
         this.mass = mass;
         this.height = height;
